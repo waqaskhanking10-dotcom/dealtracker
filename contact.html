@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us | YourWebsite</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+  <header class="navbar">
+  <div class="container">
+
+    <!-- LOGO -->
+    <div class="logo">
+      <a href="#">DealTracker</a>
+    </div>
+
+        <!-- Hamburger icon -->
+    <div id="menu" onclick="onclickmenu()">
+      <div id="bar1" class="bar"></div>
+      <div id="bar2" class="bar"></div>
+      <div id="bar3" class="bar"></div>
+    </div>
+
+    <!-- NAV MENU -->
+    <nav class="nav" id="navMenu">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="disclosure.html">Disclosure</a></li>
+        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+      </ul>
+    </nav>
+
+    <!-- BUY BUTTON -->
+    <div class="nav-btn">
+      <a href="blog.html" class="btn">Buy Guide</a>
+    </div>
+
+  </div>
+</header>
+
+<!-- ================= CONTACT FORM ================= -->
+<section class="contact-section">
+  <div class="contact-container">
+    <h1>Contact Us</h1>
+    <p>Have questions, suggestions, or business inquiries?Feel free to reach out to us. We usually respond within24–48 hours.</p>
+
+    <form action="https://formspree.io/f/xnjpevzd" method="POST">
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" placeholder="Your Name" required>
+
+      <label for="email">Email</label>
+      <input type="email" name="_replyto" id="email" placeholder="Your Email" required>
+
+      <label for="message">Message</label>
+      <textarea name="message" id="message" rows="6" placeholder="Your Message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer">
+    <div class="footer-container">
+
+        <!-- BRAND -->
+        <div class="footer-box">
+            <h3>DealTracker</h3>
+            <p>
+                Honest product reviews, comparisons & buying guides
+                to help you make smarter online purchases.
+            </p>
+
+            <!-- SOCIAL ICONS -->
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook">🌐</a>
+                <a href="#" aria-label="Twitter">🐦</a>
+                <a href="#" aria-label="YouTube">▶</a>
+                <a href="#" aria-label="Instagram">📸</a>
+            </div>
+        </div>
+
+        <!-- QUICK LINKS -->
+        <div class="footer-box">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- LEGAL -->
+        <div class="footer-box">
+            <h4>Legal</h4>
+            <ul>
+                <li><a href="disclosure.html">Affiliate Disclosure</a></li>
+                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            </ul>
+        </div>
+
+        <!-- MODE SWITCH -->
+        <div class="footer-box">
+            <h4>Theme</h4>
+            <button id="themeToggle" class="theme-btn">
+                🌙 Dark / ☀ Light
+            </button>
+            <p style="font-size:13px;margin-top:10px;">
+                Switch website appearance
+            </p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 DealTracker. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="theme.js"></script>
+
+ <script src="script.js"></script>
+</body>
+</html>
